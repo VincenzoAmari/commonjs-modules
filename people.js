@@ -1,9 +1,11 @@
-const hobbies = require("./hobbies");
-const fullName = require("./names");
+const hobbie = require("./hobbies");
+const name = require("./names");
 
 function people() {
-  fullName = ("Vincenzo", "Amari");
-  hobbies = ("Videogiochi", "Palestra", "Musica");
+  const fullName = name("Vincenzo", "Amari");
+  const hobbies = hobbie("Videogiochi", "Palestra", "Musica");
 
   return { fullName, hobbies };
 }
+
+console.log(people());

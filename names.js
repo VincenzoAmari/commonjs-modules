@@ -1,5 +1,5 @@
-function fullName(firstName, lastName) {
+function name(firstName, lastName) {
   return { firstName, lastName };
 }
 
-module.exports = fullName;
+module.exports = name;
